@@ -2,7 +2,7 @@
 Rainmeter skin for HPE Proliant Gen9 Telemetry
 # HPE ProLiant Gen9 Live Telemetry Dashboard for Rainmeter
 
-A high-speed, zero-flicker, 5-row custom desktop dashboard built for Rainmeter to monitor a remote HPE ProLiant Gen9 server running Windows Server 2022. It tracks Inlet Ambient temperature, CPU Core Thermal, and three individual chassis fan speeds natively on your desktop wallpaper background.
+A high-speed, zero-flicker, 5-row custom desktop dashboard built for Rainmeter to monitor a remote HPE ProLiant Gen9 server running Windows Server 2022. It tracks Inlet Ambient temperature, CPU Core Thermal, and three individual chassis fan speeds natively on your desktop wallpaper background. I created this to see the telemetry from my DayZ Servers (Flying Kiwis -Chernarus, Livonia, and Sahkal) running on a HPE Proliant DL20 Gen9, as using the Integrated Lights Out (iLO) was cumbersome and would not refresh independantly.
 
 ## 🛠️ How It Works
 1. **Server Side:** HWiNFO logs system metrics continuously to a shared network folder (`C:\iLOData\ilo_live_feed.csv`).
