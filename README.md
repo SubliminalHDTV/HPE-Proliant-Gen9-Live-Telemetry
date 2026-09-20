@@ -7,7 +7,7 @@ A high-speed, zero-flicker, 8-row custom desktop dashboard built for Rainmeter t
 ## 🛠️ How It Works
 1. **Server Side:** HWiNFO logs system metrics continuously to a shared network folder (`C:\iLOData\ilo_live_feed.csv`).
 2. **Desktop Side:** A background Python script runs every 10 seconds via Windows Task Scheduler. It securely bridges into the network share, handles authentication, extracts the exact telemetry columns by parsing backward from a massive 220+ column CSV layout, and saves it locally.
-3. **Rainmeter Side:** A streamlined layout reads the local text matrix and populates 5 neon monitoring bars with 100% stable, zero-flicker memory caching.
+3. **Rainmeter Side:** A streamlined layout reads the local text matrix and populates 8 neon monitoring bars with 100% stable, zero-flicker memory caching.
 
 ## 📁 Repository Structure
 * `ilo_temp.ini` - The Rainmeter layout skin.
