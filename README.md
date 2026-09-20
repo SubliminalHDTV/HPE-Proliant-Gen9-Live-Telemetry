@@ -14,7 +14,7 @@ A high-speed, zero-flicker, 5-row custom desktop dashboard built for Rainmeter t
 * `get_live_ilo.py` - The authenticated high-speed Python backend data engine.
 * `background.jpg` - Your custom dashboard background image layout.
 
-## 🚀 Setup Instructions
+## 🚀 Setup Instructions - Note: Double check your files locations as Onedrive can mess things up.
 
 ### 1. Server Configuration (Windows Server 2022)
 * Create a folder at `C:\iLOData\` and share it over the network as `iLOData` with Read/Write permissions.
@@ -33,6 +33,6 @@ To enable the high-speed 10-second background polling without flashing console w
 * Create a Basic Task in Task Scheduler named `iLO Live Feed Engine`.
 * Set the trigger to **Daily**, and action to **Start a program**.
 * Point the program path to your absolute `pythonw.exe` executable.
-* Add the argument: `"C:\Users\YOUR-USERNAME\Documents\Rainmeter\Skins\iLO-Monitor\get_live_ilo.py"`
+* Add the argument: `"C:\Users\YOUR-USERNAME\Documents\Rainmeter\Skins\iLO-Monitor\get_live_ilo.py" `
 * In the task's properties, check **"Run with highest privileges"**.
 * Edit the trigger under Advanced Settings: check **"Repeat task every:"** and set it to **1 minute** for a duration of **Indefinitely**. 
